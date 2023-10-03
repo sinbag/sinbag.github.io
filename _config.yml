@@ -1,2 +1,5 @@
 title: Garage
+email: gsingh@mpi-inf.mpg.de
+description: >- # this means to ignore newlines until "baseurl:"
+  Mathematical tools with code snippets
 theme: minima
