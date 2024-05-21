@@ -1,5 +1,4 @@
 ---
-title: Welcome to the Garage
+layout: home
+title: Home
 ---
-
-We will detail all the Monte Carlo tools developed in the past few years.
