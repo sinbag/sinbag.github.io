@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-05-21T21:45:18+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Garage</title><subtitle>Mathematical tools with code snippets</subtitle><entry><title type="html">Generating scientific plots for research papers</title><link href="http://localhost:4000/2023/04/20/scientific-plots.html" rel="alternate" type="text/html" title="Generating scientific plots for research papers" /><published>2023-04-20T00:00:00+02:00</published><updated>2023-04-20T00:00:00+02:00</updated><id>http://localhost:4000/2023/04/20/scientific-plots</id><content type="html" xml:base="http://localhost:4000/2023/04/20/scientific-plots.html"><![CDATA[<p><strong>Generating plots using GNUPlot</strong></p>
+
+<p><strong>Generative plots using Python</strong></p>
+
+<p><strong>Plot stylization for SIGGRAPH North America/Asia papers</strong></p>
+
+<p><strong>Plot stylization for ICLR papers</strong></p>
+
+<p><strong>Plot stylization for ICML papers</strong></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Generating plots using GNUPlot]]></summary></entry></feed>
