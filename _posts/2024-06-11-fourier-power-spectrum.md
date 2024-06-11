@@ -78,7 +78,6 @@ def main(argv):
         elif opt in ("-o", "--ofile"):
             outputfile = arg
     print ('Output file is "', outputfile)
-##############
 
     SAMPLERNAME='uniform_blue_noise' # jitter # uniform_jitter # blue_noise # uniform_blue_noise
     FOLDERNAME='data/geyser-duration_'+SAMPLERNAME+'/'
@@ -115,7 +114,7 @@ def main(argv):
 if __name__ == "__main__":
    main(sys.argv[1:])
 
-
+```
 
 
 
