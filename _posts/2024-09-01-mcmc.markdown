@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "MCMC: Bridging Rendering, optimization and generative AI (SIGGRAPH Asia 2024 Course)"
+date:   2024-09-01 
+permalink: /mcmc/
+# categories: jekyll update
+---
+
+
+# More content comping
+
