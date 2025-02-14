@@ -4,9 +4,7 @@ title:  "MCMC: Bridging Rendering, optimization and generative AI"
 date:   2024-09-01 
 permalink: /mcmc/
 # categories: jekyll update
----
-
-# Accepted as SIGGRAPH Asia 2024 Course 
+--- 
 
 # Coming soon!
 
