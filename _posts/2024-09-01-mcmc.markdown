@@ -9,23 +9,24 @@ permalink: /mcmc/
 Authors: Gurprit Singh, [Wenzel Jakob](https://rgl.epfl.ch/people/wjakob)
 
 Generative artificial intelligence (AI) has made unprecedented advances in vision language models over the past two years. 
-    These advances are largely due to diffusion-based generative models, which are very stable and simple to train.    
-    These diffusion models are tasked to learn the underlying unknown distribution of the training data samples. 
-    During the generative process, new samples (images) are generated from this unknown high-dimensional distribution. 
-    Markov Chain Monte Carlo (MCMC) methods are particularly effective in drawing samples from complex, high-dimensional distributions. This makes
-    MCMC methods an integral component for both the training and sampling phases of these models, ensuring accurate sample generation.
-    
-    Gradient-based optimization is at the core of modern generative models. The update step during the optimization forms a Markov chain where the new update depends only on the current state. 
-    This allows exploration of the parameter space in a memoryless manner, thus combining the benefits of gradient-based optimization and MCMC sampling.
-    MCMC methods have shown an equally important role in physically based rendering where complex light paths are otherwise quite challenging to sample from simple importance sampling techniques. 
-    
-    A lot of research is dedicated towards bringing physical realism to samples (images) generated from diffusion-based generative models in a data-driven manner, however, a unified framework connecting these techniques is still missing.   
-    In this course, we take the first steps toward understanding each of these components and exploring how MCMC could potentially serve as a bridge, linking these closely related areas of research. 
-    Our course aims to provide necessary theoretical and practical tools to guide students, researchers and practitioners towards the common goal of \emph{generative physically based rendering}.
+These advances are largely due to diffusion-based generative models, which are very stable and simple to train.    
+These diffusion models are tasked to learn the underlying unknown distribution of the training data samples. 
+During the generative process, new samples (images) are generated from this unknown high-dimensional distribution. 
+Markov Chain Monte Carlo (MCMC) methods are particularly effective in drawing samples from complex, high-dimensional distributions. This makes
+MCMC methods an integral component for both the training and sampling phases of these models, ensuring accurate sample generation.
+
+Gradient-based optimization is at the core of modern generative models. The update step during the optimization forms a Markov chain where the new update depends only on the current state. 
+This allows exploration of the parameter space in a memoryless manner, thus combining the benefits of gradient-based optimization and MCMC sampling.
+MCMC methods have shown an equally important role in physically based rendering where complex light paths are otherwise quite challenging to sample from simple importance sampling techniques. 
+
+A lot of research is dedicated towards bringing physical realism to samples (images) generated from diffusion-based generative models in a data-driven manner, however, a unified framework connecting these techniques is still missing.   
+In this course, we take the first steps toward understanding each of these components and exploring how MCMC could potentially serve as a bridge, linking these closely related areas of research. 
+Our course aims to provide necessary theoretical and practical tools to guide students, researchers and practitioners towards the common goal of \emph{generative physically based rendering}.
 
 
-    [MCMC jupyter notebooks](https://github.com/sinbag/sinbag.github.io/tree/main/python)
+[MCMC jupyter notebooks](https://github.com/sinbag/sinbag.github.io/tree/main/python)
 
-    The jupyter notebooks and the python scripts are simple experiments performed during the project life. it can help you kickstart the experimentation. 
-    They are by no means meant to be incorporated in any existing software or code base. No guarantees are provided.
+Disclaimer:
+The jupyter notebooks and the python scripts are simple experiments performed during the project life. it can help you kickstart the experimentation. 
+They are by no means meant to be incorporated in any existing software or code base. No guarantees are provided.
 
