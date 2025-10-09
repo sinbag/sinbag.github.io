@@ -21,7 +21,7 @@ MCMC methods have shown an equally important role in physically based rendering 
 
 A lot of research is dedicated towards bringing physical realism to samples (images) generated from diffusion-based generative models in a data-driven manner, however, a unified framework connecting these techniques is still missing.   
 In this course, we take the first steps toward understanding each of these components and exploring how MCMC could potentially serve as a bridge, linking these closely related areas of research. 
-Our course aims to provide necessary theoretical and practical tools to guide students, researchers and practitioners towards the common goal of \emph{generative physically based rendering}.
+Our course aims to provide necessary theoretical and practical tools to guide students, researchers and practitioners towards the common goal of generative (physically based) rendering.
 
 
 [MCMC jupyter notebooks](https://github.com/sinbag/sinbag.github.io/tree/main/python)
