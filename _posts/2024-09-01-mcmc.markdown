@@ -6,6 +6,8 @@ permalink: /mcmc/
 # categories: jekyll update
 --- 
 
+Authors: Gurprit Singh, [Wenzel Jakob](https://rgl.epfl.ch/people/wjakob)
+
 Generative artificial intelligence (AI) has made unprecedented advances in vision language models over the past two years. 
     These advances are largely due to diffusion-based generative models, which are very stable and simple to train.    
     These diffusion models are tasked to learn the underlying unknown distribution of the training data samples. 
@@ -23,4 +25,7 @@ Generative artificial intelligence (AI) has made unprecedented advances in visio
 
 
     [MCMC jupyter notebooks](https://github.com/sinbag/sinbag.github.io/tree/main/python)
+
+    The jupyter notebooks and the python scripts are simple experiments performed during the project life. it can help you kickstart the experimentation. 
+    They are by no means meant to be incorporated in any existing software or code base. No guarantees are provided.
 
