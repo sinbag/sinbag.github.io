@@ -26,6 +26,8 @@ Our course aims to provide necessary theoretical and practical tools to guide st
 
 [MCMC jupyter notebooks](https://github.com/sinbag/sinbag.github.io/tree/main/python)
 
+[Other course material](https://sampling.mpi-inf.mpg.de/2024-singh-mcmc.html)
+
 Disclaimer:
 The jupyter notebooks and the python scripts are simple experiments performed during the project life. it can help you kickstart the experimentation. 
 They are by no means meant to be incorporated in any existing software or code base. No guarantees are provided.
