@@ -98,7 +98,7 @@ Gurprit Singh, Wenzel Jakob
 
 SIGGRAPH Asia Courses 2024
 
-[webpage](https://sinbag.github.io/mcmc/) / [arXiv](https://arxiv.org/abs/2510.09078)
+[project page](https://sinbag.github.io/mcmc/) / [arXiv](https://arxiv.org/abs/2510.09078)
 
 
 ---
@@ -109,7 +109,7 @@ Xingchang Huang, Corentin Salaun, Cristina Vasconcelos, Christian Theobalt, Ceng
 
 SIGGRAPH North America 2024
 
-[webpage](https://xchhuang.github.io/bndm/index.html) / [arXiv](https://arxiv.org/abs/2402.04930)
+[project page](https://xchhuang.github.io/bndm/index.html) / [arXiv](https://arxiv.org/abs/2402.04930)
 
 
 
