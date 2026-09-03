@@ -635,7 +635,7 @@ permalink: /
 
 <section id="contact" class="about-section">
 <h2>Contact</h2>
-<p>The best way to reach me is by <a href="mailto:gurpritsbagga@gmail.com">email</a>. You can also find me on <a href="https://github.com/sinbag">GitHub</a>.</p>
+<p>The best way to reach me is by <a href="mailto:gurpritsbagga@gmail.com">email</a>. You can also find me on <a href="https://github.com/sinbag">GitHub</a> and <a href="https://www.linkedin.com/in/sinbag/">LinkedIn</a>.</p>
 </section>
 
 </div>
