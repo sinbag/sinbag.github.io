@@ -1,11 +1,13 @@
-title: Noise lab
+title: The Ministry of Noise
 email: gurpritsbagga@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The art of noises should not limit itself to an imitative reproduction -- Luigi Russolo
+  Research on Monte Carlo sampling, rendering, optimization, and generative AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sinbag.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sinbagga
 github_username:  sinbag
+header_pages:
+  - about.markdown
+  - index.markdown
 
 # Build settings
 theme: minima
@@ -29,7 +31,10 @@ defaults:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - about1.markdown
+  - about2.markdown
+  - about_professional.markdown
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
