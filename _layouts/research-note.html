@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<article class="research-note h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="research-note-header">
+    {%- if page.series -%}
+      <p class="research-note-series">{{ page.series | escape }}</p>
+    {%- endif -%}
+    <h1 class="research-note-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="research-note-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      {%- if page.author -%}
+        <span aria-hidden="true"> · </span>
+        <span class="p-author h-card" itemprop="author">{{ page.author }}</span>
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="research-note-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if page.previous_note_url or page.next_note_url -%}
+    <nav class="research-note-nav" aria-label="Neural materials series">
+      <div>
+        {%- if page.previous_note_url -%}
+          <span>Previous</span>
+          <a href="{{ page.previous_note_url | relative_url }}">{{ page.previous_note_title | escape }}</a>
+        {%- endif -%}
+      </div>
+      <div class="research-note-nav-next">
+        {%- if page.next_note_url -%}
+          <span>Next</span>
+          <a href="{{ page.next_note_url | relative_url }}">{{ page.next_note_title | escape }}</a>
+        {%- endif -%}
+      </div>
+    </nav>
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+{%- if page.math -%}
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+{%- endif -%}

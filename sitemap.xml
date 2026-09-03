@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /sitemap.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- for page in site.pages -%}
+    {%- if page.sitemap != false and page.url and page.url != "/feed.xml" and page.url != "/404.html" -%}
+      {%- unless page.url contains "/assets/" -%}
+  <url>
+    <loc>{{ page.url | absolute_url | xml_escape }}</loc>
+  </url>
+      {%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- for post in site.posts -%}
+  <url>
+    <loc>{{ post.url | absolute_url | xml_escape }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  </url>
+  {%- endfor -%}
+</urlset>

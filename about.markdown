@@ -2,6 +2,7 @@
 layout: default
 title: Research
 permalink: /
+description: Research and publications by Gurprit Singh on Monte Carlo sampling, physically based rendering, optimization, and generative AI.
 ---
 
 <div class="about-page">
@@ -201,6 +202,26 @@ permalink: /
   }
 }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gurprit Singh",
+  "url": "https://sinbag.github.io/",
+  "sameAs": [
+    "https://github.com/sinbag",
+    "https://www.linkedin.com/in/sinbag/"
+  ],
+  "jobTitle": "Researcher",
+  "knowsAbout": [
+    "Monte Carlo sampling",
+    "Physically based rendering",
+    "Optimization",
+    "Generative AI"
+  ]
+}
+</script>
 
 <section id="about" class="about-hero">
 <div>

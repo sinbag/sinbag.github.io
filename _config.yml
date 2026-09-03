@@ -1,9 +1,14 @@
 title: The Ministry of Noise
 email: gurpritsbagga@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Research on Monte Carlo sampling, rendering, optimization, and generative AI.
+  Research and publications by Gurprit Singh on Monte Carlo sampling, physically based rendering, optimization, and generative AI.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sinbag.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sinbag.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+lang: en
+timezone: Europe/Berlin
+author:
+  name: Gurprit Singh
+  url: https://sinbag.github.io/
 github_username:  sinbag
 header_pages:
   - about.markdown
@@ -11,17 +16,19 @@ header_pages:
 
 # Build settings
 theme: minima
-# plugins:
-#   - jekyll-seo-tag
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 
 defaults:
  -
   scope:
-    path: "posts" # empty string means all files
+    path: ""
+    type: posts
   values:
     layout: "post"
-    author: "Gurpreet Singh"
+    author: "Gurprit Singh"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

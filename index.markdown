@@ -5,4 +5,5 @@
 layout: home
 title: Writing
 permalink: /writing/
+description: Notes by Gurprit Singh on sampling, rendering, optimization, generative AI, and neural materials.
 ---
