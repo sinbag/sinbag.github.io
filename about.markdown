@@ -228,7 +228,6 @@ description: Research and publications by Gurprit Singh on Monte Carlo sampling,
 <h1>Gurprit Singh</h1>
 <p class="about-lead">Researcher working at the intersection of Monte Carlo sampling, rendering, optimization, and generative AI.</p>
 <p>For more than a decade, I have developed mathematical models to understand the role of randomness. I am fascinated by noise: currently, by the pivotal role it plays in generative AI, and previously by how it affects the convergence of physically based light transport.</p>
-<p>I am from Jalandhar, Punjab, India. After attending Kendriya Vidyalaya No. 2 in Jalandhar, I studied at IIT Delhi.</p>
 <p>At the core of my research, I develop Monte Carlo sampling strategies for high-dimensional numerical integration. I am equally interested in Monte Carlo, Quasi-Monte Carlo, and MCMC methods for generative modeling.</p>
 <blockquote class="opening-quote">
   <p>The art of noise should not limit itself to an imitative reproduction</p>
